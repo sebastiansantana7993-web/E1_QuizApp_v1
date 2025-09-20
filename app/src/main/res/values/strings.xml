@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">E1 - Quiz app</string>
+    <string name="actividad">E1 - Quiz app (v1)</string>
+    <string name="pregunta">¿La carrera de Tecnologias de la Informacion es la mejor carrera de Cuvalles?</string>
+    <string name="R1">Verdadero</string>
+    <string name="R2">Falso</string>
+</resources>
