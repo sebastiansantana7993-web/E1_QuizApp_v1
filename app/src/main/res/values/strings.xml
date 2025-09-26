@@ -1,7 +1,16 @@
 <resources>
     <string name="app_name">E1 - Quiz app</string>
-    <string name="actividad">E1 - Quiz app (v1)</string>
-    <string name="pregunta">¿La carrera de Tecnologias de la Informacion es la mejor carrera de Cuvalles?</string>
+    <string name="actividad">E1 - Quiz app (v2)</string>
+    <string name="pregunta1">Un pulpo tiene tres corazones.</string>
+    <string name="pregunta2">Hay dos partes del cuerpo que no pueden curarse a sí mismas.</string>
+    <string name="pregunta3">El signo zodiacal Acuario está representado por un tigre.</string>
+    <string name="pregunta4">Los peces no pueden parpadear.</string>
+    <string name="pregunta5">El elefante es el animal más grande del mundo.</string>
+    <string name="pregunta6">Colón descubrió América en 1492. </string>
     <string name="R1">Verdadero</string>
     <string name="R2">Falso</string>
+    <string name="Verdadera">"¡Respuesta Correcta!"</string>
+    <string name="Falsa">"¡Respuesta Incorrecta!"</string>
+    <string name="Siguiente">Siguiente</string>
+    <string name="Anterior">Anterior</string>
 </resources>

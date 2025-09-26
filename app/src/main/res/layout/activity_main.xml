@@ -5,7 +5,7 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#EEEBEB"
+    android:background="#FDEB9E"
     tools:context=".MainActivity">
 
     <androidx.cardview.widget.CardView
@@ -16,9 +16,7 @@
         android:layout_marginEnd="16dp"
         app:cardCornerRadius="15dp"
         app:cardElevation="5dp"
-
         app:cardUseCompatPadding="true"
-
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
@@ -47,15 +45,13 @@
                 android:textColor="@color/white"
                 android:textSize="20sp" />
 
-
         </RelativeLayout>
-
 
     </androidx.cardview.widget.CardView>
 
     <androidx.cardview.widget.CardView
         android:layout_width="303dp"
-        android:layout_height="192dp"
+        android:layout_height="222dp"
         android:layout_marginStart="16dp"
         android:layout_marginEnd="16dp"
         app:cardCornerRadius="15dp"
@@ -79,14 +75,13 @@
                 android:id="@+id/textView"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="20dp"
-                android:text="@string/pregunta"
+                android:layout_marginVertical="15dp"
                 android:textAlignment="center"
                 android:textSize="16sp" />
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_height="wrap_content"
                 android:orientation="horizontal"
                 android:padding="10dp">
 
@@ -108,11 +103,36 @@
                     android:backgroundTint="#033DF3"
                     android:text="@string/R2" />
             </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btnanterior"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="10dp"
+                    android:layout_weight="1"
+                    android:backgroundTint="#006A67"
+                    android:text="@string/Anterior" />
+
+                <Button
+                    android:id="@+id/btnsiguiente"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="10dp"
+                    android:layout_weight="1"
+                    android:backgroundTint="#006A67"
+                    android:text="@string/Siguiente" />
+
+            </LinearLayout>
+
+
         </LinearLayout>
-
-
     </androidx.cardview.widget.CardView>
-
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
